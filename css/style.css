@@ -39,6 +39,12 @@ header {
     clear: both;
 }
 
+/* footer */
+footer {
+    height: 100px;
+    background-color: lightgrey;
+}
+
 
 
 /* ********** debug *********** */
