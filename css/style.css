@@ -1,3 +1,4 @@
+/* commons */
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +10,44 @@
     margin: 0 auto;
 }
 
+/* header */
+
 header {
     width: 100%;
     height: 100px;
     background-color: yellow;
 }
 
+/* main */
+
+.sidebar,
+.content {
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.content {
+    width: 70%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 /* ********** debug *********** */
+.debug .sidebar {
+    height: 400px;
+    background-color: blue;
+}
+
+.debug .content {
+    height: 400px;
+    background-color: tomato;
+}
